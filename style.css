@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.age-container{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+}
+.header{
+    margin-bottom: 10px;
+    font-size: 1rem;
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+.calculate-btn{
+    padding: 7.5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.age-result{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.age-dob-input{
+    padding: 7.5px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background-color: gray;
+}
